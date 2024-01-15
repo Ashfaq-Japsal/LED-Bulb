@@ -1,0 +1,35 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+* {
+    box-sizing: border-box;
+}
+#bulb {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#bulb img {
+    width: 100%;
+    height: 100%;
+}
+#on {
+    width: 65px;
+    height: 45px;
+    color: white;
+    background-color: rgb(42, 43, 43);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 47vw;
+    border-radius: 5px;
+    font-size: larger;
+}
+@media screen and (max-width : 480px) {
+    #on {
+        top: 50%;
+        left: 42vw;
+    }
+}
